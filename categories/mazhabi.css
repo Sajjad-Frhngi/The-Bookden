@@ -219,68 +219,46 @@ font-family: 'Vazirmatn', sans-serif;
         }
     }
 
-
-    .home {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        margin: 2.5rem;
-        font-weight: 900;
-    }
-
     .title {
         display: flex;
         justify-content: center;
         text-align: center;
-        margin: 0 0.5rem 0.2rem 0.5rem;
+        margin: 2rem 0.5rem;
         font-size: 1.5rem;
-    }
-
-    .author {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        font-size: 1rem;
-        color: green;
-    }
-
-    .book-img {
-        display: flex;
-        justify-content: center;
-        width: 60%;
-        border-radius: 1.5rem;
-        margin: 1.5rem;
-    }
-
-    .download-box {
-        margin: 1rem;
-        display: block;
-        justify-content: center;
-        width: 18rem;
-        height: auto;
-        border-radius: 1.5rem;
-        background: linear-gradient(to top, rgb(1, 226, 1), yellow);
-    }
-
-    .down {
-        text-align: center;
-        font-size: 1rem;
-        display: flex;
-        font-size: 1.5rem;
-        justify-content: center;
-        margin: 1rem 0;
     }
 
     .descript {
         display: flex;
         justify-content: center;
         text-align: center;
-        margin: 2rem;
-        border: 5px solid #00ff99;
-        border-radius: 1rem;
-        padding: 1rem;
+        margin: 1rem 2rem;
+        line-height: 1.5rem;
+    }
+
+    .home {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 2.5rem;
+    }
+
+    .book {
         background-image: url(../main-img/portrait-back.png);
         background-repeat: no-repeat;
+        background-size: cover;
+        padding: 1.5rem;
+        width: auto;
+        justify-content: center;
+        border-radius: 1.5rem;
+        margin: 1rem;
+    }
+
+    .img {
+        display: flex;
+        justify-content: center;
+        border-radius: 1.5rem;
+        margin-bottom: 1.5rem;
+        width: 15rem;
     }
 
     #scrollToTopBtn {
@@ -309,4 +287,5 @@ font-family: 'Vazirmatn', sans-serif;
         line-height: 40px;
         text-align: center;
     }
+
 }

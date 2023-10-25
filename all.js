@@ -5,18 +5,19 @@ const element = document.querySelector('.head-name');
 element.classList.add('blink');
 
 
-window.addEventListener('scroll', function() {
-    var scrollToTopBtn = document.getElementById('scrollToTopBtn');
-    if (window.pageYOffset > 100) {
-      scrollToTopBtn.classList.add('show');
-    } else {
-      scrollToTopBtn.classList.remove('show');
-    }
+window.addEventListener('scroll', function () {
+  let scrollToTopBtn = document.getElementById('scrollToTopBtn');
+  if (window.pageYOffset > 150) {
+    scrollToTopBtn.classList.add('show');
+  } else {
+    scrollToTopBtn.classList.remove('show');
+  }
+});
+
+document.getElementById('scrollToTopBtn').addEventListener('click', function () {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
   });
-  
-  document.getElementById('scrollToTopBtn').addEventListener('click', function() {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-  });
+});
+
