@@ -367,8 +367,8 @@ font-family: 'Vazirmatn', sans-serif;
 
 	#scrollToTopBtn i {
 		display: block;
-		font-size: 24px;
-		line-height: 40px;
+        font-size: 1rem;
+        line-height: 1rem;
 		text-align: center;
 	}
 
@@ -945,8 +945,8 @@ font-family: 'Vazirmatn', sans-serif;
 	}
 
 	.box {
-		width: 18rem;
-		height: 18rem;
+		width: 16rem;
+		height: 16rem;
 		display: inline-block;
 		justify-content: center;
 		margin: 1%;
