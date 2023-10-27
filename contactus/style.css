@@ -138,7 +138,7 @@ font-family: 'Alexandria', sans-serif;
 font-family: 'Noto Kufi Arabic', sans-serif;
 font-family: 'Vazirmatn', sans-serif;
 */
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     body {
         background-image: url(../main-img/portrait-back.png);
     }
@@ -306,5 +306,131 @@ font-family: 'Vazirmatn', sans-serif;
         font-size: 24px;
         line-height: 40px;
         text-align: center;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    body {
+        background-image: url(../main-img/portrait-back.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .logo {
+        width: 6rem;
+        height: 6rem;
+        margin: 0 1rem;
+    }
+
+    .head-name {
+        margin: 1.7rem 0.3rem 1.7rem 1.7rem;
+        font-size: 2rem;
+        font-family: 'Alexandria', sans-serif !important;
+    }
+
+    .sub-name {
+        font-family: 'Vazirmatn', sans-serif !important;
+        margin: -1.5rem 5rem 0 0;
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+    }
+
+    .sub-head {
+        position: relative;
+        display: inline-block;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Alexandria {
+        font-family: "Alexandria", sans-serif;
+        line-height: 150%;
+    }
+
+    .Noto {
+        font-family: "Noto Kufi Arabic", sans-serif;
+    }
+
+    .Vazirmatn {
+        font-family: "Vazirmatn", sans-serif;
+        margin: 0.2rem;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+        margin: 0.2rem;
+    }
+
+    .blink {
+        animation: blinker 1s linear infinite;
+    }
+
+    @keyframes blinker {
+        50% {
+            color: red;
+            opacity: 0;
+        }
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 2rem 0.5rem;
+        font-size: 1.2rem;
+    }
+
+    .pros {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 4rem 3rem 1rem;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .name {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 2rem 0.5rem;
+        font-size: 3rem;
+        font-weight: 500;
+    }
+
+    .introduction {
+        display: block;
+    }
+
+    .intro {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 5% 10%;
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+    }
+
+    .thanks {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 15% 5%;
+        line-height: 2.7rem;
+        color: rgb(1, 127, 49);
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    .home {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 2rem;
+        font-size: 1.8rem;
     }
 }

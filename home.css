@@ -367,8 +367,8 @@ font-family: 'Vazirmatn', sans-serif;
 
 	#scrollToTopBtn i {
 		display: block;
-        font-size: 1rem;
-        line-height: 1rem;
+		font-size: 1rem;
+		line-height: 1rem;
 		text-align: center;
 	}
 
@@ -529,8 +529,8 @@ font-family: 'Vazirmatn', sans-serif;
 		position: fixed;
 		bottom: 1rem;
 		left: 1rem;
-		width: 3.5rem;
-		height: 3.5rem;
+		width: 6rem;
+		height: 6rem;
 		border: none;
 		background-color: #029c38;
 		color: #ddff00;
@@ -547,8 +547,8 @@ font-family: 'Vazirmatn', sans-serif;
 
 	#scrollToTopBtn i {
 		display: block;
-		font-size: 24px;
-		line-height: 40px;
+		font-size: 1.6rem;
+		line-height: 2.2rem;
 		text-align: center;
 	}
 
@@ -647,8 +647,9 @@ font-family: 'Vazirmatn', sans-serif;
 		display: flex;
 		justify-content: center;
 		padding: 40%;
+		padding-bottom: 30%;
 		font-family: "Noto Kufi Arabic", sans-serif !important;
-		font-size: 1.5rem;
+		font-size: 1.8rem;
 		font-weight: 700;
 	}
 
@@ -704,7 +705,7 @@ font-family: 'Vazirmatn', sans-serif;
 		color: rgb(0, 0, 0);
 		font-weight: 600;
 		margin: 1rem;
-		font-size: 1.5rem;
+		font-size: 2rem;
 		opacity: 100%;
 		font-family: "Noto Kufi Arabic", sans-serif !important;
 		text-shadow: 2px 5px 4px rgba(0.2, 0.2, 0.2, 0.2);
@@ -714,7 +715,7 @@ font-family: 'Vazirmatn', sans-serif;
 		background-image: url(../bookden/main-img/portrait-back.png);
 		background-repeat: no-repeat;
 		background-size: cover;
-		padding: 0.5rem;
+		padding: 0.3rem;
 		width: auto;
 		justify-content: center;
 		border-radius: 2rem;
@@ -732,35 +733,36 @@ font-family: 'Vazirmatn', sans-serif;
 	.footer {
 		direction: ltr;
 		width: 100%;
-		height: 10%;
+		height: 8%;
 		background: linear-gradient(to right, yellow, rgb(12, 159, 98));
 		border-radius: 2%;
 	}
 
 	.left-footer {
 		margin: 15% 5%;
-		line-height: 1.5rem;
 	}
 
 	.left-footer h3,
 	a {
 		margin: 5% 0 5% 0;
 		text-align: center;
-		font-size: 1rem;
+		font-size: 2rem;
 		font-weight: 600;
 		justify-content: center;
 		display: flex;
 		direction: rtl;
+		line-height: 2.5rem;
 	}
 
 	.intro {
 		width: 70%;
-		margin: 20% 1rem;
+		margin: 10% 2rem;
 	}
 
 	.intro p {
 		direction: rtl;
 		text-align: center;
+		font-size: 1.5rem;
 	}
 }
 
@@ -805,7 +807,7 @@ font-family: 'Vazirmatn', sans-serif;
 	}
 
 	.back {
-		margin: 0.5rem 3rem 1.5rem 2rem;
+		margin: 1rem 3rem 1.5rem 2rem;
 		width: 30%;
 		border-radius: 3rem;
 	}

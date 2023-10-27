@@ -85,7 +85,7 @@ function calculateAverageRating() {
 for (let star of stars) {
   star.addEventListener("click", function () {
     // Your existing code here...
-
+    
     // Calculate and display the average rating after a rating is added
     calculateAverageRating();
   });
